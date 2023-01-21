@@ -15,6 +15,13 @@ public class Car extends Vehicle {
 
     }
 
+    public int getCurrentGear() {
+        return currentGear;
+    }
+
+    public void setCurrentGear(int currentGear) {
+        this.currentGear = currentGear;
+    }
 
     public void changeGear(int newGear){
         this.currentGear=newGear;
