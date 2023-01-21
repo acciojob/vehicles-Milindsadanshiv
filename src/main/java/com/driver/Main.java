@@ -5,7 +5,10 @@ public class Main {
         F1 mercedes = new F1("mercedes", false);
         mercedes.move(200, 29);
         mercedes.accelerate(20);
-        mercedes.move(20,76);
-//        mercedes.accelerate(-60);
+        mercedes.accelerate(-60);
+
+        Boat b=new Boat();
+        b.getVehicleCapacity();
+        b.getVehicleName();
     }
 }
