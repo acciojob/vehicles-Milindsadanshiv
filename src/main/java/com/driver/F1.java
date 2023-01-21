@@ -6,7 +6,9 @@ public class F1 extends Car {
         //Use arbitrary values for parameters which are not mentioned
           super(name,4,2,6,false,"F1",2);
     }
+///////////////////////////////////////
 
+    //////////////////////////////////
     public void accelerate(int rate){
         int newSpeed =getCurrentSpeed()+rate; //set the value of new speed by using currentSpeed and rate
 
